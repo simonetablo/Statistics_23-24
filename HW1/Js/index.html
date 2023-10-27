@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <title>Shapes Drawing</title>
+</head>
+
+<body>
+    <canvas id="myCanvas" width="500" height="500"></canvas>
+
+    <script>
+        var canvas = document.getElementById("myCanvas");
+        var ctx = canvas.getContext("2d");
+
+        ctx.beginPath();
+        ctx.moveTo(50, 50);
+        ctx.lineTo(50, 300);
+        ctx.strokeStyle = "black";
+        ctx.stroke();
+
+        ctx.fillStyle = "red";
+        ctx.fillRect(50, 350, 2, 2);
+
+        ctx.beginPath();
+        ctx.arc(400, 200, 100, 0, 2 * Math.PI);
+        ctx.fillStyle = "blue";
+        ctx.fill();
+
+        ctx.fillStyle = "orange";
+        ctx.fillRect(150, 50, 100, 300);
+    </script>
+</body>
+</html>

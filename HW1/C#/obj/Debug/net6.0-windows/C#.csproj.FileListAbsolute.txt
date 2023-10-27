@@ -1,0 +1,16 @@
+E:\File\Università\Cybersecurity\Statistics\code\HW1\C#\bin\Debug\net6.0-windows\C#.exe
+E:\File\Università\Cybersecurity\Statistics\code\HW1\C#\bin\Debug\net6.0-windows\C#.deps.json
+E:\File\Università\Cybersecurity\Statistics\code\HW1\C#\bin\Debug\net6.0-windows\C#.runtimeconfig.json
+E:\File\Università\Cybersecurity\Statistics\code\HW1\C#\bin\Debug\net6.0-windows\C#.dll
+E:\File\Università\Cybersecurity\Statistics\code\HW1\C#\bin\Debug\net6.0-windows\C#.pdb
+E:\File\Università\Cybersecurity\Statistics\code\HW1\C#\obj\Debug\net6.0-windows\C_.Form1.resources
+E:\File\Università\Cybersecurity\Statistics\code\HW1\C#\obj\Debug\net6.0-windows\C#.csproj.GenerateResource.cache
+E:\File\Università\Cybersecurity\Statistics\code\HW1\C#\obj\Debug\net6.0-windows\C#.GeneratedMSBuildEditorConfig.editorconfig
+E:\File\Università\Cybersecurity\Statistics\code\HW1\C#\obj\Debug\net6.0-windows\C#.AssemblyInfoInputs.cache
+E:\File\Università\Cybersecurity\Statistics\code\HW1\C#\obj\Debug\net6.0-windows\C#.AssemblyInfo.cs
+E:\File\Università\Cybersecurity\Statistics\code\HW1\C#\obj\Debug\net6.0-windows\C#.csproj.CoreCompileInputs.cache
+E:\File\Università\Cybersecurity\Statistics\code\HW1\C#\obj\Debug\net6.0-windows\C#.dll
+E:\File\Università\Cybersecurity\Statistics\code\HW1\C#\obj\Debug\net6.0-windows\refint\C#.dll
+E:\File\Università\Cybersecurity\Statistics\code\HW1\C#\obj\Debug\net6.0-windows\C#.pdb
+E:\File\Università\Cybersecurity\Statistics\code\HW1\C#\obj\Debug\net6.0-windows\C#.genruntimeconfig.cache
+E:\File\Università\Cybersecurity\Statistics\code\HW1\C#\obj\Debug\net6.0-windows\ref\C#.dll

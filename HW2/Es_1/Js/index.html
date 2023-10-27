@@ -1,0 +1,148 @@
+<html>
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+   <form id="Form", onsubmit="">
+      <input type="file" id="csvFile" accept=".csv" />
+      <br />      
+      <label for="variable">Choose a type of variable to calculate the Frequency Distribuions</label>
+      <select id="variable", name="variables">
+         <option value="qualitative">Qualitative</option>
+         <option value="quantitative_disc">Quantitative_disc</option>
+         <option value="quantitative_cont">Quantitative_cont</option>
+      </select>
+      <br />
+      <label for="variable">Choose two variables to calculate the Joint Distribution</label>
+      <select id="joint1", name="variable1">
+         <option value="qualitative">Qualitative</option>
+         <option value="quantitative_disc">Quantitative_disc</option>
+         <option value="quantitative_cont">Quantitative_cont</option>
+      </select>
+      <select id="joint2", name="variable2">
+         <option value="qualitative">Qualitative</option>
+         <option value="quantitative_disc">Quantitative_disc</option>
+         <option value="quantitative_cont">Quantitative_cont</option>
+      </select>
+      <br />
+      <input type="submit" value="Submit" />
+   </form>
+   <script>
+      const Form = document.getElementById("Form");
+      const csvFile = document.getElementById("csvFile");
+      let dataset;
+      let dataset1;
+      let dataset2;
+      let absoluteDist;
+      let relativeDist;
+      let percentageDist;
+      let joint;
+      let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+      Form.addEventListener("submit", function (e) {
+         e.preventDefault();
+         const input = csvFile.files[0];
+         const reader = new FileReader();
+         reader.onload = function (e) {
+            const text = e.target.result;
+            let rows=text.split('\n')
+            let qualitative=[];
+            let quantitative_disc=[];
+            let quantitative_cont=[];
+            for (let i = 1; i < rows.length; i++) {
+                let currentline = rows[i].split(/,(?=(?:(?:[^"]*"){2})*[^"]*$)/);
+                qualitative.push(currentline[15]);
+                quantitative_disc.push(currentline[5]);
+                quantitative_cont.push(currentline[6]);
+            }
+            switch(document.getElementById("variable").value){
+               case "qualitative":
+                  dataset=qualitative;
+                  break;
+               case "quantitative_disc":
+                  dataset=quantitative_disc;
+                  break;
+               case "quantitative_cont":
+                  dataset=quantitative_cont;
+                  break;
+            }
+            absoluteDist=AbsoluteDist(dataset);
+            relativeDist=RelativeDist(absoluteDist);
+            percentageDist=PercentageDist(relativeDist);
+
+            switch(document.getElementById("joint1").value){
+               case "qualitative":
+                  dataset1=qualitative;
+                  break;
+               case "quantitative_disc":
+                  dataset1=quantitative_disc;
+                  break;
+               case "quantitative_cont":
+                  dataset1=quantitative_cont;
+                  break;
+            }
+            switch(document.getElementById("joint2").value){
+               case "qualitative":
+                  dataset2=qualitative;
+                  break;
+               case "quantitative_disc":
+                  dataset2=quantitative_disc;
+                  break;
+               case "quantitative_cont":
+                  dataset2=quantitative_cont;
+                  break;
+            }
+            joint=JointDist(dataset1, dataset2)
+
+            document.write(JSON.stringify(absoluteDist)+"<br>");
+            document.write(JSON.stringify(relativeDist)+"<br>");
+            document.write(JSON.stringify(percentageDist)+"<br>");
+            document.write(JSON.stringify(joint))
+         }
+         reader.readAsText(input);
+      });
+
+      function AbsoluteDist(dataset){
+         let absoluteFrequencyDistribution = {};
+         dataset.forEach(i => {
+          if (absoluteFrequencyDistribution[i]) {
+              absoluteFrequencyDistribution[i]++;
+          } else {
+              absoluteFrequencyDistribution[i] = 1;
+          }
+         });
+         return absoluteFrequencyDistribution;
+      }
+
+      function RelativeDist(absolute){
+         let sum = Object.values(absolute).reduce((a, b) => a + b, 0);
+         let relativeFrequencyDistribution = {};
+         for (let i in absolute) {
+             relativeFrequencyDistribution[i] = absolute[i] / sum;
+         }
+         return relativeFrequencyDistribution;
+      }
+
+      function PercentageDist(relative){
+         let percentageFrequencyDistribution = {};
+         for (let i in relative) {
+             percentageFrequencyDistribution[i] = relative[i] * 100;
+         }
+         return percentageFrequencyDistribution;
+      }
+
+      function JointDist(arr1, arr2) {
+      if (arr1.length !== arr2.length) {
+          throw new Error("Both arrays must have the same length");
+      }
+      let jointFrequency = {};
+      for (let i = 0; i < arr1.length; i++) {
+          let key = `${arr1[i]}, ${arr2[i]}`;
+          jointFrequency[key] = jointFrequency[key] ? jointFrequency[key] + 1 : 1;
+      }
+      return jointFrequency;
+   }
+   </script>
+</body>
+</html>
