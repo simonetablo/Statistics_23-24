@@ -1,0 +1,16 @@
+F:\Code\Statistics_23-24\HW4\Hw2Es1\C#\obj\Debug\net6.0-windows\HW2.Form1.resources
+F:\Code\Statistics_23-24\HW4\Hw2Es1\C#\obj\Debug\net6.0-windows\C#.csproj.GenerateResource.cache
+F:\Code\Statistics_23-24\HW4\Hw2Es1\C#\obj\Debug\net6.0-windows\C#.GeneratedMSBuildEditorConfig.editorconfig
+F:\Code\Statistics_23-24\HW4\Hw2Es1\C#\obj\Debug\net6.0-windows\C#.AssemblyInfoInputs.cache
+F:\Code\Statistics_23-24\HW4\Hw2Es1\C#\obj\Debug\net6.0-windows\C#.AssemblyInfo.cs
+F:\Code\Statistics_23-24\HW4\Hw2Es1\C#\obj\Debug\net6.0-windows\C#.csproj.CoreCompileInputs.cache
+F:\Code\Statistics_23-24\HW4\Hw2Es1\C#\bin\Debug\net6.0-windows\C#.exe
+F:\Code\Statistics_23-24\HW4\Hw2Es1\C#\bin\Debug\net6.0-windows\C#.deps.json
+F:\Code\Statistics_23-24\HW4\Hw2Es1\C#\bin\Debug\net6.0-windows\C#.runtimeconfig.json
+F:\Code\Statistics_23-24\HW4\Hw2Es1\C#\bin\Debug\net6.0-windows\C#.dll
+F:\Code\Statistics_23-24\HW4\Hw2Es1\C#\bin\Debug\net6.0-windows\C#.pdb
+F:\Code\Statistics_23-24\HW4\Hw2Es1\C#\obj\Debug\net6.0-windows\C#.dll
+F:\Code\Statistics_23-24\HW4\Hw2Es1\C#\obj\Debug\net6.0-windows\refint\C#.dll
+F:\Code\Statistics_23-24\HW4\Hw2Es1\C#\obj\Debug\net6.0-windows\C#.pdb
+F:\Code\Statistics_23-24\HW4\Hw2Es1\C#\obj\Debug\net6.0-windows\C#.genruntimeconfig.cache
+F:\Code\Statistics_23-24\HW4\Hw2Es1\C#\obj\Debug\net6.0-windows\ref\C#.dll

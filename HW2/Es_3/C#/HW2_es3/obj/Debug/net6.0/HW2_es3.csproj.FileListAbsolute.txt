@@ -12,3 +12,17 @@ E:\File\Università\Cybersecurity\Statistics\code\HW2\Es_3\C#\HW2_es3\obj\Debug\
 E:\File\Università\Cybersecurity\Statistics\code\HW2\Es_3\C#\HW2_es3\obj\Debug\net6.0\HW2_es3.pdb
 E:\File\Università\Cybersecurity\Statistics\code\HW2\Es_3\C#\HW2_es3\obj\Debug\net6.0\HW2_es3.genruntimeconfig.cache
 E:\File\Università\Cybersecurity\Statistics\code\HW2\Es_3\C#\HW2_es3\obj\Debug\net6.0\ref\HW2_es3.dll
+F:\Code\Statistics_23-24\HW2\Es_3\C#\HW2_es3\bin\Debug\net6.0\HW2_es3.exe
+F:\Code\Statistics_23-24\HW2\Es_3\C#\HW2_es3\bin\Debug\net6.0\HW2_es3.deps.json
+F:\Code\Statistics_23-24\HW2\Es_3\C#\HW2_es3\bin\Debug\net6.0\HW2_es3.runtimeconfig.json
+F:\Code\Statistics_23-24\HW2\Es_3\C#\HW2_es3\bin\Debug\net6.0\HW2_es3.dll
+F:\Code\Statistics_23-24\HW2\Es_3\C#\HW2_es3\bin\Debug\net6.0\HW2_es3.pdb
+F:\Code\Statistics_23-24\HW2\Es_3\C#\HW2_es3\obj\Debug\net6.0\HW2_es3.GeneratedMSBuildEditorConfig.editorconfig
+F:\Code\Statistics_23-24\HW2\Es_3\C#\HW2_es3\obj\Debug\net6.0\HW2_es3.AssemblyInfoInputs.cache
+F:\Code\Statistics_23-24\HW2\Es_3\C#\HW2_es3\obj\Debug\net6.0\HW2_es3.AssemblyInfo.cs
+F:\Code\Statistics_23-24\HW2\Es_3\C#\HW2_es3\obj\Debug\net6.0\HW2_es3.csproj.CoreCompileInputs.cache
+F:\Code\Statistics_23-24\HW2\Es_3\C#\HW2_es3\obj\Debug\net6.0\HW2_es3.dll
+F:\Code\Statistics_23-24\HW2\Es_3\C#\HW2_es3\obj\Debug\net6.0\refint\HW2_es3.dll
+F:\Code\Statistics_23-24\HW2\Es_3\C#\HW2_es3\obj\Debug\net6.0\HW2_es3.pdb
+F:\Code\Statistics_23-24\HW2\Es_3\C#\HW2_es3\obj\Debug\net6.0\HW2_es3.genruntimeconfig.cache
+F:\Code\Statistics_23-24\HW2\Es_3\C#\HW2_es3\obj\Debug\net6.0\ref\HW2_es3.dll
