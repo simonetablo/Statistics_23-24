@@ -1,0 +1,40 @@
+C:\Users\Simone\Desktop\Prove C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+C:\Users\Simone\Desktop\Prove C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Simone\Desktop\Prove C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Simone\Desktop\Prove C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Simone\Desktop\Prove C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Simone\Desktop\Prove C#\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Simone\Desktop\Prove C#\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Simone\Desktop\Prove C#\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Simone\Desktop\Prove C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Simone\Desktop\Prove C#\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+E:\File\Università\Cybersecurity\Statistics\code\HW3\Es_1\WindowsFormsApp1\bin\Debug\C#.exe.config
+E:\File\Università\Cybersecurity\Statistics\code\HW3\Es_1\WindowsFormsApp1\bin\Debug\C#.exe
+E:\File\Università\Cybersecurity\Statistics\code\HW3\Es_1\WindowsFormsApp1\bin\Debug\C#.pdb
+E:\File\Università\Cybersecurity\Statistics\code\HW3\Es_1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+E:\File\Università\Cybersecurity\Statistics\code\HW3\Es_1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+E:\File\Università\Cybersecurity\Statistics\code\HW3\Es_1\WindowsFormsApp1\obj\Debug\C_.Properties.Resources.resources
+E:\File\Università\Cybersecurity\Statistics\code\HW3\Es_1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+E:\File\Università\Cybersecurity\Statistics\code\HW3\Es_1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+E:\File\Università\Cybersecurity\Statistics\code\HW3\Es_1\WindowsFormsApp1\obj\Debug\C#.exe
+E:\File\Università\Cybersecurity\Statistics\code\HW3\Es_1\WindowsFormsApp1\obj\Debug\C#.pdb
+F:\Code\Statistics_23-24\HW5\bin\Debug\C#.exe.config
+F:\Code\Statistics_23-24\HW5\bin\Debug\C#.exe
+F:\Code\Statistics_23-24\HW5\bin\Debug\C#.pdb
+F:\Code\Statistics_23-24\HW5\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+F:\Code\Statistics_23-24\HW5\obj\Debug\WindowsFormsApp1.Form1.resources
+F:\Code\Statistics_23-24\HW5\obj\Debug\C_.Properties.Resources.resources
+F:\Code\Statistics_23-24\HW5\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+F:\Code\Statistics_23-24\HW5\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+F:\Code\Statistics_23-24\HW5\obj\Debug\C#.exe
+F:\Code\Statistics_23-24\HW5\obj\Debug\C#.pdb
+F:\Code\Statistics_23-24\HW5\C#\bin\Debug\C#.exe.config
+F:\Code\Statistics_23-24\HW5\C#\bin\Debug\C#.exe
+F:\Code\Statistics_23-24\HW5\C#\bin\Debug\C#.pdb
+F:\Code\Statistics_23-24\HW5\C#\obj\Debug\WindowsFormsApp1.csproj.AssemblyReference.cache
+F:\Code\Statistics_23-24\HW5\C#\obj\Debug\WindowsFormsApp1.Form1.resources
+F:\Code\Statistics_23-24\HW5\C#\obj\Debug\C_.Properties.Resources.resources
+F:\Code\Statistics_23-24\HW5\C#\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+F:\Code\Statistics_23-24\HW5\C#\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+F:\Code\Statistics_23-24\HW5\C#\obj\Debug\C#.exe
+F:\Code\Statistics_23-24\HW5\C#\obj\Debug\C#.pdb
