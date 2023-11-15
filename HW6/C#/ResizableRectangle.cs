@@ -31,7 +31,6 @@ namespace WindowsFormsApp1
         public ResizableRectangle(Rectangle rectangle)
         {
             this.rectangle = rectangle;
-            this.pictureBox.BackColor = Color.Transparent;
             this.pictureBox.Width = rectangle.Width;
             this.pictureBox.Height = rectangle.Height;
             this.offset.X = rectangle.X;
@@ -105,11 +104,10 @@ namespace WindowsFormsApp1
             this.pictureBox.Height = originalHeight;
         }
 
-        public void drawChart(ObjectChart chart, bool rotation)
+        public void drawChart(ObjectChart chart)
         {
             b.Dispose();
             Chart c = chart.getChart();
-
             c.Size = this.pictureBox.Size;
 
             c.SaveImage(chart.type + "Chart.png", ChartImageFormat.Png);
@@ -127,10 +125,10 @@ namespace WindowsFormsApp1
                 h.Height = this.pictureBox.Width;
                 h.Width = this.pictureBox.Height;
             }
-            else { h.Size= this.pictureBox.Size;}
+            else { h.Size = this.pictureBox.Size; }
 
-            h.SaveImage(histogram.type + histogram.time +"Histogram.png", ChartImageFormat.Png);
-            b = new Bitmap(histogram.type + +histogram.time + "Histogram.png");
+            h.SaveImage("Histogram.png", ChartImageFormat.Png);
+            b = new Bitmap("Histogram.png");
             b.MakeTransparent();
             pictureBox.Image = b;
             if (rotation)
@@ -138,5 +136,6 @@ namespace WindowsFormsApp1
                 pictureBox.Image.RotateFlip(RotateFlipType.Rotate90FlipNone);
             }
         }
+
     }
 }
