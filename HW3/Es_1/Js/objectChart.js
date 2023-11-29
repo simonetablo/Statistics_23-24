@@ -11,6 +11,7 @@ class ObjectChart{
         let data=this.data;
         let label=[];
         let rows=data.length;
+        console.log(rows)
         let cols=data[0].length;
         for(let l=0; l<cols; l++){
             label.push(l)
